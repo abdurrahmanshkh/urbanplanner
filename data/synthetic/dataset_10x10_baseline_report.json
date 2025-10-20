@@ -1,0 +1,64 @@
+{
+  "dataset": "dataset_10x10",
+  "population_total": 27243,
+  "landuse_ratios": {
+    "Empty": 0.83,
+    "Commercial": 0.05,
+    "Park": 0.03,
+    "School": 0.03,
+    "Transit": 0.03,
+    "Grocery": 0.02,
+    "Hospital": 0.01
+  },
+  "amenity_metrics": {
+    "School": {
+      "population_weighted_avg_distance": 3.2029145101493963,
+      "median_distance": 3.0,
+      "std_distance": 1.6775101800109604,
+      "p90_distance": 5.0,
+      "coverage_within_radius": 0.6326395771390816,
+      "capacity_violations": 0,
+      "num_amenities": 3
+    },
+    "Park": {
+      "population_weighted_avg_distance": 4.280292185148478,
+      "median_distance": 4.0,
+      "std_distance": 2.554457383722133,
+      "p90_distance": 8.0,
+      "coverage_within_radius": 0.30495907205520684,
+      "capacity_violations": 0,
+      "num_amenities": 3
+    },
+    "Hospital": {
+      "population_weighted_avg_distance": 6.131666850200052,
+      "median_distance": 6.0,
+      "std_distance": 2.860387767736777,
+      "p90_distance": 10.0,
+      "coverage_within_radius": 0.40204823257350514,
+      "capacity_violations": 0,
+      "num_amenities": 1
+    },
+    "Grocery": {
+      "population_weighted_avg_distance": 4.507506515435158,
+      "median_distance": 4.0,
+      "std_distance": 2.414183677412062,
+      "p90_distance": 8.0,
+      "coverage_within_radius": 0.2296736776419631,
+      "capacity_violations": 0,
+      "num_amenities": 2
+    },
+    "Transit": {
+      "population_weighted_avg_distance": 3.5652828249458577,
+      "median_distance": 4.0,
+      "std_distance": 1.8388347210429576,
+      "p90_distance": 6.0,
+      "coverage_within_radius": 0.32632235803692694,
+      "capacity_violations": 0,
+      "num_amenities": 3
+    }
+  },
+  "equity": {
+    "std_mean_distance": 1.0600247757729653,
+    "p90_mean_distance": 5.6
+  }
+}
